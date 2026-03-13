@@ -1,10 +1,8 @@
 @Library('Shared') _
 pipeline {
-<<<<<<< HEAD
-    agent any 
-=======
+
     agent any
->>>>>>> 967bcec (Update Jenkinsfile and env configs)
+
     
     parameters {
         string(name: 'FRONTEND_DOCKER_TAG', defaultValue: '', description: 'Frontend Docker tag of the image built by the CI job')
